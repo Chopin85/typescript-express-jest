@@ -14,7 +14,7 @@ type ResponsePost = {
 
 beforeEach((done) => {
   mongoose.connect(
-    "mongodb://localhost:27017/JestDB",
+    "mongodb://localhost:27017/JestDBTest",
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => done()
   );
